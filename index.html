@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Présentation du DOM</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titre">Présentation du DOM</h1>
+    <p id="text">Le Document Object Model, in english please :), représente le 'HTML' d'une page web.</br>
+        Avec JS nous allons pouvoir utiliser un ensembles d'interfaces qui travaillent ensembles pour que l'on puisse manipuler les différents éléments de notre page web<br>
+        Le DOM peut-être représenté sous forme d'arbre. <br>
+        Exemple: le fichier actuel, le point de départ est la balise html qui a 2 branches une repésente la balise head et la 2onde le body <br>
+        ensuite head a 4 branches et body 5 branches etc...<br>
+        On parle aussi de noeud le html étant le noeud racine chaque balise html étant un noeud<br>
+        Tous cela paraît simple mais il y a une vraie complexité derrière ces interfaces et cela nous permet d'avoir une grande précision !</p>
+    <img id="img" src="Dom.jpg" width="700" height="523" alt="">
+    <div id="functions">
+        <p>je ne peut pas toutes vous les lister il y en a beaucoup je vous présente les plus utilisées</p>
+        <p>getElementById(), getElementByClasssName(), getElementByTagName(),... comme vous pouvez le constater le nommage respecte une convention <br>
+        Cette convention de nommage implique que la fonction commence par une minuscule sans espace et chaque mot suivant commence par une majuscule</p>
+        <p>il existe aussi querySelector() il permet d'affiner notre selection d'élément</p>
+    </div>
+    <div id="sources" class="footer">
+        <p>https://www.pierre-giraud.com/javascript-apprendre-coder-cours/</p>
+        <p>https://developer.mozilla.org/fr/docs/Web/JavaScript</p>
+    </div>
+</body>
+</html>
