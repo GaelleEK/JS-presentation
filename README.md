@@ -7,7 +7,7 @@ Présentation du DOM
 
 ***
 
-* **Imporatnt point** :
+* **Important point** :
     * it is necessary to note 'defer' in the Html when declaring the JS file with the script tag
 
 
