@@ -3,11 +3,13 @@ body {
     align-content: center;
     justify-content: center;
     font-size: larger;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 
 }
 #functions {
     display: none;
+    border: solid 1px black;
+    padding: 2%;
 }
 .footer {
     position: absolute;
@@ -16,12 +18,17 @@ body {
 }
 #test {
     float: right;
+    border: solid 1px black;
+    padding: 2%;
 }
 .footer > p {
     font-size: smaller;
-    line-height: 0.8em;
+    line-height: 0;
+    border: none;
+    padding: inherit;
 }
 
 p {
     font-size: larger;
+    padding: 2%;
 }
