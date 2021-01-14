@@ -9,8 +9,9 @@ Présentation du DOM
 
 * **Important point** :
     * it is necessary to note 'defer' in the Html when declaring the JS file with the script tag
+    * if you don't mention 'defer' you will have to use a function on windows.onload (see comments l1-l2 main.js)
 
 
 * **Point important** :
     * il faut bien noter 'defer' dans le Html lorsque l'on déclare le fichier JS avec la balise script
-      
+    * si vous ne mentionnez pas 'defer' il faudra utiliser une fonction  sur windows.onload (voir commentaires l1-l2 main.js)
